@@ -1,7 +1,9 @@
 Astra DB examples with OpenFaaS
 ===============================
 
-##Usage:
+This repository accompanies an article on the OpenFaaS blog. You can fork or adapt this example for your own use with OpenFaaS or Astra DB and Node.js.
+
+## Usage:
 
 Read the article: [Serverless storage for your functions from the Datastax Astra DB](https://www.openfaas.com/blog/faas-storage-cassandra-astra/)
 
