@@ -1,0 +1,15 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  weekly-newsletter:
+    lang: node14
+    handler: ./weekly-newsletter
+    image: alexellis/weekly-newsletter:0.0.6
+    environment:
+      ASTRA_DB_ID: 991f9b02-8fff-4d03-bc93-cfebbe1d41cc
+      ASTRA_DB_REGION: eu-central-1
+      ASTRA_DB_KEYSPACE: functions
+    secrets:
+    - astra-token
