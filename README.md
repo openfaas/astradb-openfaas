@@ -1,5 +1,5 @@
-Astra DB examples with OpenFaaS
-===============================
+Connect to Astra DB using Node.js and OpenFaaS
+==============================================
 
 This repository accompanies an article on the OpenFaaS blog. You can fork or adapt this example for your own use with OpenFaaS or Astra DB and Node.js.
 
