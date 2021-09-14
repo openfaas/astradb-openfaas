@@ -14,6 +14,11 @@ Examples in this repository:
 * [cycling](/cycling/) - Node.js example using Astra DB and the Cassandra Driver
 * [weekly-newsletter](/weekly-newsletter/) - Node.js for Astra DB using the Document SDK
 
+## Live stream / walk-through
+
+[![Serverless Storage for Your Node.js Functions with Astra DB](https://img.youtube.com/vi/uJyufpJ3204/sddefault.jpg)](https://www.youtube.com/watch?v=uJyufpJ3204&list=PLlIapFDp305AZCFOOXuXGC_ELWeJMD4m-)
+
+* Watch now: [Serverless Storage for Your Node.js Functions with Astra DB](https://www.youtube.com/watch?v=uJyufpJ3204&list=PLlIapFDp305AZCFOOXuXGC_ELWeJMD4m-)
 
 ## License: 
 
