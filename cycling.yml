@@ -1,0 +1,13 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  cycling:
+    lang: node14
+    handler: ./cycling
+    image: alexellis/cycling:0.1.0
+    secrets:
+    - astra-clientid
+    - astra-clientsecret
+    - astra-secure-connect
