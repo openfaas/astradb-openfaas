@@ -27,6 +27,7 @@ module.exports = async (event, context) => {
   } else if(event.query.url) {
     try {
       let links = await linksCollection.find({ url: { $eq: event.query.url } });
+
       return context.
         status(200).
         succeed(links);
